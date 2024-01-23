@@ -1,77 +1,146 @@
-
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Weather App</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width initial-scale=1.0" />
+        <title>NETFLIX HOMEPAGE</title>
         <link rel="stylesheet" href="styles.css">
     </head>
-    <style>
-        body{
-            background-color: palegreen;
-        }
-    </style>
     <body>
-        <div class="card">
-            <div class="search">
-                <input type="text" placeholder="Enter city name">
-                <button><img id="img" src="searchimage.png" width="20px" height="20px"></button>
-            </div>
-            <div class="weather">
-                <img src="icon.png" class="icon">
-                <h1 class="temp">22°C</h1>
-                <h2 class="city">New York</h2>
-                <div class="details">
-                    <div class="col">
-                        <img src="humidity 4.png" class="humidityimg">
-                        <div>
-                            <p class="humidityp">50%</p>
-                            <p>humidity</p>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <img src="wind 5.png" class="windicon">
-                        <div>
-                            <p class="windp">15km/h</p>
-                            <p>Wind speed</p> 
-                        </div>
-                        
-                    </div>
-                    </div>
+        <div class="navbar" id="nav">
+            <img src="netflix-logo.png" class="logo">
+            <img src="netflix-avatar.png" class="avatar">
+        </div>
+        <div class="banner">
+            <div class="bannercontent">
+                <h1 class="title">LEO</h1>
+                <div class="button">
+                    <button class="bannerbutton">Play</button>
+                    <button class="bannerbutton">More Info</button>
                 </div>
+                <div class="description">
+                    Violently pursued by criminals who insist he's a former gangster, a humble cafe owner fights to shield his family — and the truth about his identity
+                </div>
+            </div>
+            <div class="bannerfade">
+
+            </div>
+        </div>
+        <div class="row">
+            <h2>NETFLIX ORIGINALS</h2>
+            <div class="rowposters">
+                <img src="large-movie1.jpg" class="poster large">
+                <img src="large-movie2.jpg" class="poster large">
+                <img src="large-movie3.jpg" class="poster large">
+                <img src="large-movie4.jpg" class="poster large">
+                <img src="large-movie5.jpg" class="poster large">
+                <img src="large-movie6.jpg" class="poster large">
+                <img src="large-movie7.jpg" class="poster large">
+                <img src="large-movie8.jpg" class="poster large">
+            </div>
+        </div>
+        <div class="row">
+            <h2>TRENDING NOW</h2>
+            <div class="rowposters">
+                <img src="small-movie1.jpg" class="poster">
+                <img src="small-movie2.jpg" class="poster">
+                <img src="small-movie3.jpg" class="poster">
+                <img src="small-movie4.jpg" class="poster">
+                <img src="small-movie5.jpg" class="poster">
+                <img src="small-movie6.jpg" class="poster">
+                <img src="small-movie7.jpg" class="poster">
+                <img src="small-movie8.jpg" class="poster">
+            </div>
+        </div>
+        <div class="row">
+            <h2>TOP RATED</h2>
+            <div class="rowposters">
+                <img src="swades2.jpg" class="poster">
+                <img src="poh.jpg" class="poster">
+                <img src="lagaan.jpg" class="poster">
+                <img src="mh.jpg" class="poster">
+                <img src="small-movie5.jpg" class="poster">
+                <img src="dk.jpg" class="poster">
+                <img src="gow.jpg" class="poster">
+                <img src="small-movie8.jpg" class="poster">
+            </div>
+        </div>
+        <div class="row">
+            <h2>ACTION MOVIES</h2>
+            <div class="rowposters">
+                <img src="beast.jpg" class="poster">
+                <img src="Extraction.jpg" class="poster">
+                <img src="jawan.jpg" class="poster">
+                <img src="mersal.jpg" class="poster">
+                <img src="sarkar.jpg" class="poster">
+                <img src="small-movie6.jpg" class="poster">
+                <img src="small-movie7.jpg" class="poster">
+                <img src="small-movie8.jpg" class="poster">
+            </div>
+        </div>
+        <div class="row">
+            <h2>COMEDY MOVIES</h2>
+            <div class="rowposters">
+                <img src="office.png" class="poster">
+                <img src="friends.jpg" class="poster">
+                <img src="pk.jpg" class="poster">
+                <img src="khnh.jpg" class="poster">
+                <img src="dch.jpg" class="poster">
+                <img src="as.jpg" class="poster">
+                <img src="small-movie7.jpg" class="poster">
+                <img src="small-movie8.jpg" class="poster">
+            </div>
+        </div>
+        <div class="row">
+            <h2>HORROR MOVIES</h2>
+            <div class="rowposters">
+                <img src="st.jpg" class="poster">
+                <img src="stree.jpg" class="poster">
+                <img src="twd.jpg" class="poster">
+                <img src="viru.jpg" class="poster">
+                <img src="ck.jpg" class="poster">
+                <img src="db.jpg" class="poster">
+                <img src="insi.jpg" class="poster">
+                <img src="small-movie8.jpg" class="poster">
+            </div>
+        </div>
+        <div class="row">
+            <h2>ROMANTIC MOVIES</h2>
+            <div class="rowposters">
+                <img src="ok.jpg" class="poster">
+                <img src="dilse.jpg" class="poster">
+                <img src="adhm.jpg" class="poster">
+                <img src="love.jpg" class="poster">
+                <img src="kushi.jpg" class="poster">
+                <img src="hinanna.jpg" class="poster">
+                <img src="small-movie7.jpg" class="poster">
+                <img src="small-movie8.jpg" class="poster">
+            </div>
+        </div>
+        <div class="row">
+            <h2>DOCUMENTARIES</h2>
+            <div class="rowposters">
+                <img src="veer.jpg" class="poster">
+                <img src="curr.jpg" class="poster">
+                <img src="ip.jpg" class="poster">
+                <img src="htbat.jpg" class="poster">
+                <img src="aa.jpg" class="poster">
+                <img src="ro.jpg" class="poster">
+                <img src="small-movie7.jpg" class="poster">
+                <img src="small-movie8.jpg" class="poster">
             </div>
         </div>
         <script>
-            const apiKey="232cad3b1c7b123b0ceec97cbb2e4530";
-            const apiUrl="https://api.openweathermap.org/data/2.5/weather?appid=232cad3b1c7b123b0ceec97cbb2e4530&units=metric&q=";
-            const searchBox=document.querySelector(".search input");
-            const searchbtn=document.querySelector(".search Button");
-            const weatherIcon=document.querySelector(".icon");
-            async function checkWeather(city){
-                const response= await fetch(apiUrl + city + '&appid=${apiKey}');
-                var data= await response.json();
-                console.log(data);
-                document.querySelector(".city").innerHTML=data.name;
-                document.querySelector(".temp").innerHTML=Math.round(data.main.temp) + "°C";
-                document.querySelector(".humidityp").innerHTML=data.main.humidity + "%";
-                document.querySelector(".windp").innerHTML=data.wind.speed + "km/h";
-                if(data.weather[0].main=="Clouds"){
-                    weatherIcon.src="clouds.jpg";
+            const nav=document.getElementById("nav")
+            window.addEventListener("scroll",()=>{
+                if(window.scrollY>=100){
+                    nav.classList.add("navblack");
                 }
-                else if(data.weather[0].main=="Clear"){
-                    weatherIcon.src="sunny.jpg";
+                else{
+                    nav.classList.remove("navblack");
                 }
-                else if(data.weather[0].main=="drizzle"){
-                    weatherIcon.src="drizzle.jpg";
-                }
-                else if(data.weather[0].main=="Mist"){
-                    weatherIcon.src="mist.jpg";
-                }
-            }
-            searchbtn.addEventListener("click", ()=>{
-                checkWeather(searchBox.value);
-            } );
-            
+            });
         </script>
     </body>
 </html>
